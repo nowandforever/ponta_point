@@ -1,13 +1,10 @@
-<?
-require 'index.php';
-use PHPUnit\Framework\TestCase;
+<?php
+include 'index.php';
 
-class MoneyTest extends TestCase
-{
+class MoneyTest extends PHPUnit_Framework_TestCase {
     // ...
 
-    public function testCanBeNegated()
-    {
+    public function testCanBeNegated() {
         // Arrange
         $a = new Demo();
       
